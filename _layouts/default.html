@@ -18,7 +18,10 @@
 - /_assets/javascripts/paper.js
 - /_assets/javascripts/masonry.js
 - /_assets/javascripts/things.js
+- /_assets/javascripts/bg.js
 {% endjavascript_asset_tag %}
+
+<script type="text/paperscript" src="/assets/bg.js" canvas="bg"></script>
 
 <script type="text/javascript" src="//use.typekit.net/rxl7kbn.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -36,6 +39,8 @@
   </header>
 
   {{ content }}
+
+  <canvas id="bg" resize></canvas>
 
 </body>
 </html>
