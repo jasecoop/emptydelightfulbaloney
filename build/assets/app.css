@@ -1,0 +1,78 @@
+body, html {
+  width: 100%;
+  height: 100%; }
+
+li, ol {
+  list-style: none; }
+
+.bg_text {
+  text-transform: uppercase;
+  font-family: "futura-pt";
+  font-weight: 800;
+  width: 200px;
+  font-size: 3em;
+  color: #f2eceb !important;
+  line-height: 1em;
+  z-index: 1;
+  margin: -10px 0 0 -3px;
+  position: absolute; }
+
+section.main {
+  padding-top: 160px;
+  position: relative;
+  z-index: 2; }
+
+article header {
+  z-index: 1; }
+article .content {
+  z-index: 2;
+  position: relative; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+canvas#bg {
+  position: fixed;
+  top: 0;
+  z-index: 0; }
+
+header.main .logo {
+  margin: 20px;
+  position: fixed;
+  z-index: 9999; }
+header.main h1 {
+  position: absolute; }
+
+.logo {
+  display: block;
+  width: 90px;
+  height: 90px;
+  background: url("/images/logo.png"); }
+
+.line01 {
+  width: 100%;
+  height: 118px;
+  background-image: url("/images/posts/line/line.png");
+  background-repeat: repeat-x;
+  padding-bottom: 40px; }
+
+.line02 img {
+  padding: 0 20px 40px 20px; }
+
+.things {
+  margin-left: 20px; }
+  .things li {
+    float: left;
+    margin: 10px; }
+    .things li.img {
+      overflow: hidden;
+      width: auto;
+      display: block; }
+    .things li.hafiz {
+      text-align: center;
+      display: block;
+      width: 200px; }
+      .things li.hafiz a {
+        text-decoration: none;
+        color: black; }
