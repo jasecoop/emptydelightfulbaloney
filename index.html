@@ -7,7 +7,7 @@ title: Jekyll Hello World
 
   {% for post in site.posts do %}
 
-    <article class="{{ post.type }}">
+    <article class="{{ post.type }} {{ post.style }}">
 
       <header>
         <h1 class="bg_text">{{ post.title }}</h1>
